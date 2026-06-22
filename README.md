@@ -278,26 +278,3 @@ This project currently has no license. Add a `LICENSE` file if you want to make 
 
 ---
 
-If you'd like, I can now:
-
-- Replace placeholder demo/CI/GitHub URLs with real links you provide
-- Embed actual screenshots if you upload them or point to `./screenshots/`
-- Add CI badges (GitHub Actions) if you give the repo slug
-
-
-## Useful Links & Badges
-
-- **Live Demo:** https://example.com (replace with your deployed app URL)
-- **API Docs:** https://example.com/api-docs (Swagger/Postman collection)
-- **License:** [LICENSE](LICENSE) (add a LICENSE file and replace link)
-- **Contributing Guide:** [CONTRIBUTING.md](CONTRIBUTING.md)
-- **CI / Build Status:**
-	- Badge (placeholder): [![CI](https://img.shields.io/badge/CI-placeholder-lightgrey)](https://example.com/ci)
-- **Issue Tracker / Roadmap:** https://example.com/issues
-- **Changelog / Releases:** https://example.com/releases
-- **Architecture / ERD / Design Docs:** https://example.com/architecture
-- **Contact / Maintainer:** mailto:maintainer@example.com
-- **Screenshots / Demo Images:** `docs/screenshots/` (place images under this folder and I will insert them inline)
-
-Replace any `example.com` or placeholder URLs with real addresses. If you prefer, I can add real badges (GitHub Actions, Coverage, npm version) once you provide the repository slug or CI URLs.
-
