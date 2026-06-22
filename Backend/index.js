@@ -15,7 +15,7 @@ import projectRoutes from './src/routes/projects.js';
 
 dotenv.config();
 
-const allowedOrigins = (process.env.CLIENT_URLS || process.env.CLIENT_URL || 'http://localhost:5173')
+const allowedOrigins = (process.env.CLIENT_URLS || 'https://dev-track-weld.vercel.app/' || 'http://localhost:5173')
   .split(',')
   .map((origin) => origin.trim())
   .filter(Boolean);
