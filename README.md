@@ -1,13 +1,11 @@
 # DevTrack
 
-DevTrack
-
 DevTrack is a modern full-stack Task & Project Management application (Node.js + Express backend, React + Vite frontend). It helps teams and individuals create, track and collaborate on projects and tasks with role-based views and realtime updates.
 
 
 ## 🌐 Live Demo
 
-- **Frontend:** https://example-frontend.example.com
+- **Frontend:** https://dev-track-weld.vercel.app
 - **Backend API:** https://devtrack-k1q5.onrender.com
 - **GitHub Repository:** https://github.com/your-org/DevTrack
 
@@ -252,7 +250,7 @@ VITE_SOCKET_URL=https://devtrack-k1q5.onrender.com
 For the backend on Render, make sure `CLIENT_URLS` includes your deployed frontend URL, for example:
 
 ```env
-CLIENT_URLS=https://your-frontend-domain.com,http://localhost:5173
+CLIENT_URLS=https://dev-track-weld.vercel.app,http://localhost:5173
 ```
 
 Open: `http://localhost:5173`
