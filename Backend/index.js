@@ -60,9 +60,13 @@ app.use((req, res, next) => {
 
 // ─── Routes ──────────────────────────────────────────────────────────────────
 app.use('/api/auth', authroute);
+app.use('/auth', authroute);
 app.use('/api/tasks', taskRoutes);
+app.use('/tasks', taskRoutes);
 app.use('/api/users', userRoutes);
+app.use('/users', userRoutes);
 app.use('/api/projects', projectRoutes);
+app.use('/projects', projectRoutes);
 
 // Health check
 app.get('/health', (req, res) => res.json({ status: 'ok' }));
