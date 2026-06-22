@@ -7,7 +7,8 @@ import {
   removeTaskFromSocket,
 } from '../store/slices/taskSlice.js';
 
-const SOCKET_URL = 'http://localhost:5000';
+const SOCKET_URL =
+  import.meta.env.VITE_SOCKET_URL || 'https://devtrack-k1q5.onrender.com';
 
 const useSocket = () => {
   const dispatch = useDispatch();

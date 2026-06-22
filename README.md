@@ -8,7 +8,7 @@ DevTrack is a modern full-stack Task & Project Management application (Node.js +
 ## 🌐 Live Demo
 
 - **Frontend:** https://example-frontend.example.com
-- **Backend API:** https://example-backend.example.com
+- **Backend API:** https://devtrack-k1q5.onrender.com
 - **GitHub Repository:** https://github.com/your-org/DevTrack
 
 ---
@@ -211,7 +211,7 @@ Create `.env` in `Backend/`:
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 PORT=3000
-CLIENT_ORIGIN=http://localhost:5173
+CLIENT_URLS=http://localhost:5173
 ```
 
 Start backend:
@@ -231,12 +231,28 @@ Create `.env` in `Frontend/` (Vite):
 
 ```env
 VITE_API_BASE_URL=http://localhost:3000/api
+VITE_SOCKET_URL=http://localhost:3000
 ```
 
 Start frontend:
 
 ```bash
 npm run dev
+```
+
+### Production frontend values
+
+If you deploy the frontend separately, set these environment variables in Vercel or your hosting provider:
+
+```env
+VITE_API_BASE_URL=https://devtrack-k1q5.onrender.com/api
+VITE_SOCKET_URL=https://devtrack-k1q5.onrender.com
+```
+
+For the backend on Render, make sure `CLIENT_URLS` includes your deployed frontend URL, for example:
+
+```env
+CLIENT_URLS=https://your-frontend-domain.com,http://localhost:5173
 ```
 
 Open: `http://localhost:5173`
