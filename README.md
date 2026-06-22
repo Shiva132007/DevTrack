@@ -4,7 +4,6 @@ DevTrack
 
 DevTrack is a modern full-stack Task & Project Management application (Node.js + Express backend, React + Vite frontend). It helps teams and individuals create, track and collaborate on projects and tasks with role-based views and realtime updates.
 
-![Dashboard Preview](./screenshots/Dashboard.png)
 
 ## 🌐 Live Demo
 
